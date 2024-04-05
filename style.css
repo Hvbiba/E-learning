@@ -1,0 +1,101 @@
+#web , #aiml , #marketing{
+   display: flex; flex-direction: row; flex-wrap: wrap;
+    align-items: center;  justify-content: center;
+    padding-left: 3%; 
+}
+#home div img{
+ width: 650px; float: right;
+}
+#home {
+    display: flex; flex-direction: row;
+    justify-content: center; align-items: center;
+}
+/*     color: #0062e4;*/
+#content{
+    margin: 30px; margin-top: 6%;
+}
+#content h1{
+    color: #055aca;
+}
+#content h5{
+    padding-left: 10px;
+}
+#content p {
+    font-family: sans-serif; font-size: 17px;
+    padding-left: 10px;
+}
+.btn{
+    width: 150px; height: 45px; font-size: 17px; 
+     margin: 20px; margin-left: 10px;
+}
+#logo {
+    margin-right: 200px; padding: 20px;
+}
+@media (max-width: 576px){
+    #logo {
+        margin-right: 0px; padding: 10px; width: 150px;
+    }
+    .main ,  #offcanvasNavbar {
+        background-color: #ebebebfb;
+    }
+    #home{
+       flex-direction: column;  
+     
+    }
+    #content{
+        margin: 0px; margin-top: 10%;
+    }
+    #content h1{
+        font-size: 23px;margin-top: 30px;
+    }
+    #content p {
+        font-size: 16px;
+    }
+    .btn{
+        margin: 30px; margin-left: 0px;
+    }
+   #offcanvasNavbar {
+    height: fit-content; width: auto;
+   }
+   #home div img{
+    padding: 3px 10px 3px 10px;
+    width: 270px; float:center;
+   }
+}
+.card{
+margin: 20px;
+}
+.head{
+    color: #0062e4;  text-align: center;
+    padding: 40px;  letter-spacing: 3px;
+} 
+.topbar h5 {
+    color: #0062e4;  font-weight:bold;
+    }
+    .topbar ul li a:hover{
+        color: #1c6eda; text-decoration: underline 1px #71a5e9;;
+        }
+    #links a:hover{
+        color: #1c6eda; text-decoration: underline 1px  #71a5e9;
+        }
+    #links li{
+       margin-left: 10px; margin-right: 10px; 
+    }
+    #links a{
+    color:black; font-size: 16px; } 
+    .card li:hover {
+       background-color: #277be8; color: black;
+    }
+   
+    @media (max-width: 576px){
+        .head{
+            padding: 15px;  letter-spacing: 2px; text-align: center;
+        } 
+        #web , #Ai , #market {
+            padding: 0px;
+        } 
+        .card {
+            margin: 20px 30px  20px 30px;
+        }
+    }
+ 
